@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context="com.example.danftcpudp.Iluminacaocenas">
+
+    <ImageView
+        android:id="@+id/imagebar30"
+        android:layout_width="221dp"
+        android:layout_height="29dp"
+        android:layout_marginTop="148dp"
+        android:src="@drawable/bg_iluminacao"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.021"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="ImageContrastCheck" />
+
+    <ImageView
+        android:id="@+id/image_30"
+        android:layout_width="90dp"
+        android:layout_height="29dp"
+        android:layout_marginTop="148dp"
+        android:src="@drawable/botao_ilumin_off"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.66"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/cenas_ambiente"
+        android:layout_width="84dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="144dp"
+        android:fontFamily="sans-serif"
+        android:text="CENAS"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.349"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.517" />
+
+    <ImageButton
+        android:id="@+id/btn_voltarCENAS"
+        android:layout_width="45dp"
+        android:layout_height="40dp"
+        android:background="#00FFFFFF"
+        android:scaleType="centerInside"
+        android:src="@drawable/botao_voltar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.043"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.044"
+        tools:ignore="SpeakableTextPresentCheck,DuplicateSpeakableTextCheck,TouchTargetSizeCheck" />
+
+    <Button
+        android:id="@+id/ON_OFAN"
+        android:layout_width="45dp"
+        android:layout_height="29dp"
+        android:onClick="OFAN"
+        android:textColorHighlight="#00FFFFFF"
+        android:textColorHint="#00FFFFFF"
+        android:visibility="visible"
+        app:backgroundTint="#00FFFFFF"
+        app:iconTint="#00FFFFFF"
+        app:layout_constraintBottom_toBottomOf="@+id/image_30"
+        app:layout_constraintEnd_toEndOf="@+id/image_30"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/image_30"
+        app:layout_constraintVertical_bias="0.0"
+        app:rippleColor="#00FFFFFF"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck"
+        tools:visibility="visible" />
+
+    <Button
+        android:id="@+id/OFF_OFAO"
+        android:layout_width="45dp"
+        android:layout_height="29dp"
+        android:onClick="OFAO"
+        android:textColorHighlight="#00FFFFFF"
+        android:textColorHint="#00FFFFFF"
+        android:visibility="visible"
+        app:backgroundTint="#00FFFFFF"
+        app:iconTint="#00FFFFFF"
+        app:layout_constraintBottom_toBottomOf="@+id/image_30"
+        app:layout_constraintEnd_toStartOf="@+id/ON_OFAN"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/image_30"
+        app:layout_constraintVertical_bias="0.0"
+        app:rippleColor="#00FFFFFF"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck"
+        tools:visibility="visible" />
+
+    <TextView
+        android:id="@+id/geral"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif"
+        android:text="GERAL"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="@+id/imagebar30"
+        app:layout_constraintEnd_toEndOf="@+id/imagebar30"
+        app:layout_constraintStart_toStartOf="@+id/imagebar30"
+        app:layout_constraintTop_toTopOf="@+id/imagebar30" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <uses-permission android:name="android.permission.INTERNET" />
+
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/whatsapp_image_2023_07_11_at_8_59_01_am"
+        android:label="DANF"
+        android:roundIcon="@drawable/whatsapp_image_2023_07_11_at_8_59_01_am"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.DANFTCPUDP"
+        tools:targetApi="31">
+        <activity
+            android:name="com.example.danftcpudp.Inicio"
+            android:exported="false" />
+        <activity
+            android:name="com.example.danftcpudp.Inicio2"
+            android:exported="false" />
+        <activity
+            android:name="com.example.danftcpudp.Inicio3"
+            android:exported="false" />
+        <activity
+            android:name="com.example.danftcpudp.Iluminacao"
+            android:exported="false" />
+
+        <activity
+            android:name="com.example.danftcpudp.Iluminacao2"
+            android:exported="false" />
+        <activity
+            android:name="com.example.danftcpudp.Iluminacao3"
+            android:exported="false" />
+        <activity
+            android:name="com.example.danftcpudp.Iluminacao4"
+            android:exported="false" />
+        <activity
+            android:name="com.example.danftcpudp.Iluminacao5"
+            android:exported="false" />
+        <activity
+            android:name="com.example.danftcpudp.Iluminacao6"
+            android:exported="false" />
+        <activity
+            android:name="com.example.danftcpudp.Iluminacao7"
+            android:exported="false" />
+        <activity
+            android:name="com.example.danftcpudp.Iluminacao8"
+            android:exported="false" />
+        <activity
+            android:name="com.example.danftcpudp.Iluminacao9"
+            android:exported="false" />
+        <activity
+            android:name="com.example.danftcpudp.Iluminacao10"
+            android:exported="false" />
+        <activity
+            android:name="com.example.danftcpudp.Iluminacao11"
+            android:exported="false" />
+        <activity
+            android:name="com.example.danftcpudp.Iluminacaocenas"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
